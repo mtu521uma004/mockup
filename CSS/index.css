@@ -1,0 +1,36 @@
+ /* ID */
+      #nav{
+        color: blue;
+        padding: 50px;
+        font-family: monospace;
+      }
+      /* UNIVERSAL */
+      * {
+        font-family: Impact, xHaettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color:#a57bbb;
+      }
+      /* ATTRIBUTE */
+      input[type="text"] {
+        background-color: hsl(186, 83%, 54%);
+        font-size: larger;
+      }
+      /* ELEMENT */
+      h1 {
+        color: rgb(221, 205, 23);
+      }
+      /* CLASS */
+      .hello {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #c8ff00;
+        font-size: larger;
+        font-weight: 1000;
+      }
+      .demo {
+        height: 50%;
+        width: 10%;
+        background-color: violet;
+        border-radius: 50px;
+      }
+      .basic{
+        padding: 20%;
+      }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+
+        .flex-box {
+            display: flex;
+            align-items: center; /* Vertically align items */
+            border: 1px solid #ccc;
+            padding: 15px;
+            gap: 15px; /* Add space between image and paragraph */
+        }
+
+
+           /* Styling for Different Divs */
+        .first-div {
+            flex-direction: row; /* Image followed by paragraph */
+        }
+
+        .second-div {
+            flex-direction: row-reverse; /* Paragraph followed by image */
+        }
+
+        .third-div {
+            flex-direction: column; /* Stack image and paragraph vertically */
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox Layout Example</h1>
+
+        <!-- First Div: Image then Paragraph -->
+        <div class="flex-box first-div">
+            <img src="./Images/tech.png" alt="Sample Image" height="100">
+            <p>This is the first div. The image is placed first, followed by the paragraph.</p>
+        </div>
+
+        <!-- Second Div: Paragraph then Image -->
+        <div class="flex-box second-div">
+            <img src="./Images/tech.png" alt="Sample Image" height="100">
+            <p>This is the second div. The paragraph is placed first, followed by the image.</p>
+        </div>
+
+        <!-- Third Div: Image and Paragraph stacked vertically -->
+        <div class="flex-box third-div">
+            <img src="./Images/tech.png" alt="Sample Image" height="100">
+            <p>This is the third div. The image is placed on top, and the paragraph is below it.</p>
+        </div>
+</body>
+</html>
